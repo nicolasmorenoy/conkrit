@@ -1,6 +1,7 @@
 import pytest
 from conkrit.geometry.rectangle import Rectangle
-from conkrit.utils.units import ureg, Q_
+from conkrit.utils.units import ureg
+Q_ = ureg.Quantity
 
 
 def test_rectangle_area():
